@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:title="@string/student_search"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:titleTextAppearance="@style/TextAppearance.NimmaGuru.Title" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/screen_padding"
+                android:paddingTop="32dp"
+                android:paddingEnd="@dimen/screen_padding"
+                android:paddingBottom="@dimen/screen_padding">
+
+                <TextView
+                    android:id="@+id/searchTitleTextView"
+                    style="@style/TextAppearance.NimmaGuru.Headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/student_search_title"
+                    android:textColor="?attr/colorOnSurface" />
+
+                <TextView
+                    android:id="@+id/searchSubtitleTextView"
+                    style="@style/TextAppearance.NimmaGuru.Body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/student_search_subtitle"
+                    android:textColor="?attr/colorOnSurfaceVariant" />
+
+                <TextView
+                    style="@style/TextAppearance.NimmaGuru.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/skill_filter"
+                    android:textColor="?attr/colorOnSurface" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/skillFilterChipGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:selectionRequired="false"
+                    app:singleSelection="false">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/mathFilterChip"
+                        style="@style/Widget.NimmaGuru.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="Mathematics"
+                        android:text="@string/skill_mathematics" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/scienceFilterChip"
+                        style="@style/Widget.NimmaGuru.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="Science"
+                        android:text="@string/skill_science" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/carpentryFilterChip"
+                        style="@style/Widget.NimmaGuru.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="Carpentry"
+                        android:text="@string/skill_carpentry" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/englishFilterChip"
+                        style="@style/Widget.NimmaGuru.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="English"
+                        android:text="@string/skill_english" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/kannadaFilterChip"
+                        style="@style/Widget.NimmaGuru.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="Kannada"
+                        android:text="@string/skill_kannada" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/codingFilterChip"
+                        style="@style/Widget.NimmaGuru.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="Coding"
+                        android:text="@string/skill_coding" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/musicFilterChip"
+                        style="@style/Widget.NimmaGuru.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="Music"
+                        android:text="@string/skill_music" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/yogaFilterChip"
+                        style="@style/Widget.NimmaGuru.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="Yoga"
+                        android:text="@string/skill_yoga" />
+                </com.google.android.material.chip.ChipGroup>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/locationInputLayout"
+                    style="@style/Widget.NimmaGuru.TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="@string/location">
+
+                    <com.google.android.material.textfield.TextInputEditText
+            android:textSize="@dimen/text_body"
+                        android:id="@+id/locationEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/searchButton"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_weight="1"
+                        android:text="@string/search" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/clearFiltersButton"
+                        style="@style/Widget.NimmaGuru.OutlinedButton"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_marginStart="12dp"
+                        android:layout_weight="1"
+                        android:text="@string/clear_filters" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/emptyStateTextView"
+                    style="@style/TextAppearance.NimmaGuru.Body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="@string/no_mentors_found"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:visibility="gone" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/mentorsRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

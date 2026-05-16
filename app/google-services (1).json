@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "493684221280",
+    "project_id": "nimmaguru-fef71",
+    "storage_bucket": "nimmaguru-fef71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493684221280:android:89929cbe9c82ed4f54aa05",
+        "android_client_info": {
+          "package_name": "com.nimmaguru.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493684221280-a99k28m5elnc5tb0ibhpvnvefdrnss0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nimmaguru.app",
+            "certificate_hash": "f972aa763190773008b854f933692c400567434d"
+          }
+        },
+        {
+          "client_id": "493684221280-vep7a7jm5n44ab17hnoo5e1q66ute0n7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCgiuNya9UeXDTBzHbP5TomcPRD65Hfoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493684221280-vep7a7jm5n44ab17hnoo5e1q66ute0n7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

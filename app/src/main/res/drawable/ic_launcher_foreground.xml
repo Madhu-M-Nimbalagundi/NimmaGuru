@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,19a35,35 0,1 0,68 0a35,35 0,1 0,-68 0"
+        android:fillAlpha="0.0" />
+
+    <!-- Open book -->
+    <path
+        android:fillColor="#075B32"
+        android:pathData="M22,65C31,60 41,60 50,66V78C41,72 31,72 22,77Z" />
+    <path
+        android:fillColor="#075B32"
+        android:pathData="M58,66C67,60 77,60 86,65V77C77,72 67,72 58,78Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,66C34,63 42,64 49,68V73C42,69 34,68 27,71Z"
+        android:fillAlpha="0.75" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,68C66,64 74,63 81,66V71C74,68 66,69 59,73Z"
+        android:fillAlpha="0.75" />
+
+    <!-- Center learner reaching for star -->
+    <path
+        android:fillColor="#F47B20"
+        android:pathData="M54,31m-6,0a6,6 0,1 0,12 0a6,6 0,1 0,-12 0" />
+    <path
+        android:fillColor="#F47B20"
+        android:pathData="M51,39L57,39L63,61L45,61Z" />
+    <path
+        android:strokeColor="#F47B20"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M58,41L69,27" />
+    <path
+        android:strokeColor="#075B32"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M50,43L39,54" />
+
+    <!-- Star -->
+    <path
+        android:fillColor="#F47B20"
+        android:pathData="M72,16L74,22L80,22L75,26L77,32L72,28L67,32L69,26L64,22L70,22Z" />
+
+    <!-- Word hint NG -->
+    <path
+        android:fillColor="#075B32"
+        android:pathData="M31,84h5l7,10V84h5v19h-5l-7,-10v10h-5z" />
+    <path
+        android:fillColor="#F47B20"
+        android:pathData="M60,84h16v4h-11v3h10v4h-10v4h11v4h-16z" />
+</vector>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.nimmaguru.app.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard" />
+
+    <activity
+        android:id="@+id/tasksActivity"
+        android:name="com.nimmaguru.app.ui.task.TaskManagerActivity"
+        android:label="@string/nav_tasks_connect" />
+
+    <activity
+        android:id="@+id/communityActivity"
+        android:name="com.nimmaguru.app.ui.student.StudentSearchActivity"
+        android:label="@string/nav_community" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nimmaguru.app.ui.dashboard.DashboardFragment"
+        android:label="@string/user_dashboard" />
+</navigation>

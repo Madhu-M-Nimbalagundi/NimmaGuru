@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ನಿಮ್ಮ-ಗುರು</string>
+    <string name="login_title">ಮತ್ತೆ ಸ್ವಾಗತ</string>
+    <string name="login_subtitle">ಕಲಿಯಲು ಮತ್ತು ಕಲಿಸಲು ಸೈನ್ ಇನ್ ಮಾಡಿ.</string>
+    <string name="brand_title">NIMMA-GURU</string>
+    <string name="brand_tagline">ಮನಸ್ಸುಗಳಿಗೆ ಮಾರ್ಗದರ್ಶನ, ಭವಿಷ್ಯ ನಿರ್ಮಾಣ</string>
+    <string name="login_illustration">📚</string>
+    <string name="teacher">ಗುರು</string>
+    <string name="email_or_phone">ಇಮೇಲ್ ಅಥವಾ ಫೋನ್ ಸಂಖ್ಯೆ</string>
+    <string name="remember_me">ನನ್ನನ್ನು ನೆನಪಿಡಿ</string>
+    <string name="forgot_password">ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?</string>
+    <string name="login_arrow">ಲಾಗಿನ್  →</string>
+    <string name="or_text">ಅಥವಾ</string>
+    <string name="continue_google">G  Google ಮೂಲಕ ಮುಂದುವರಿಸಿ</string>
+    <string name="study_benefit">ಅಧ್ಯಯನ\nಸಾಮಗ್ರಿ ಪಡೆಯಿರಿ</string>
+    <string name="learn_benefit">ಕಲಿಯಿರಿ\nಲೈವ್ ತರಗತಿಗಳಿಗೆ ಸೇರಿ</string>
+    <string name="achieve_benefit">ಸಾಧಿಸಿ\nಗುರಿಗಳನ್ನು ಹಿಂಬಾಲಿಸಿ</string>
+    <string name="google_placeholder">Firebase Console ನಲ್ಲಿ Google sign-in ಅನ್ನು ಸಂಪರ್ಕಿಸಬಹುದು.</string>
+    <string name="email_required">ಇಮೇಲ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="password_required">ಪಾಸ್ವರ್ಡ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="login_successful">ಲಾಗಿನ್ ಯಶಸ್ವಿಯಾಗಿದೆ</string>
+    <string name="login_failed">ಲಾಗಿನ್ ವಿಫಲವಾಗಿದೆ: %1$s</string>
+    <string name="role_check_failed">ಪಾತ್ರ ಪರಿಶೀಲಿಸುವಲ್ಲಿ ದೋಷ: %1$s</string>
+    <string name="firebase_setup_required_title">Firebase ಸೆಟಪ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="firebase_setup_required_message">app ಫೋಲ್ಡರ್ ಒಳಗೆ ನಿಮ್ಮ Firebase google-services.json ಫೈಲ್ ಸೇರಿಸಿ, ನಂತರ Sync ಮಾಡಿ ಮತ್ತೆ Run ಮಾಡಿ.</string>
+    <string name="firebase_setup_required_button">Firebase ಸೆಟಪ್‌ಗಾಗಿ ಕಾಯುತ್ತಿದೆ</string>
+    <string name="signup_title">ನಿಮ್ಮ ಖಾತೆ ರಚಿಸಿ</string>
+    <string name="signup_subtitle">ಇಮೇಲ್ ಮೂಲಕ NimmaGuru ಗೆ ಸೇರಿ.</string>
+    <string name="role_title">ನಿಮ್ಮ ಪಾತ್ರ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="role_subtitle">NimmaGuru ಅನ್ನು ಹೇಗೆ ಬಳಸಲು ಬಯಸುತ್ತೀರಿ?</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="confirm_password">ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ</string>
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="signup">ಸೈನ್ ಅಪ್</string>
+    <string name="create_account">ಖಾತೆ ರಚಿಸಿ</string>
+    <string name="already_have_account">ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ? ಲಾಗಿನ್</string>
+    <string name="guru">ಗುರು</string>
+    <string name="student">ವಿದ್ಯಾರ್ಥಿ</string>
+    <string name="home_welcome">NimmaGuru ಗೆ ಸ್ವಾಗತ</string>
+    <string name="home_greeting">%1$s, %2$s!</string>
+    <string name="greeting_morning">ಶುಭೋದಯ</string>
+    <string name="greeting_afternoon">ಶುಭ ಮಧ್ಯಾಹ್ನ</string>
+    <string name="greeting_evening">ಶುಭ ಸಂಜೆ</string>
+    <string name="greeting_welcome_back">ಮತ್ತೆ ಸ್ವಾಗತ</string>
+    <string name="friend">ಸ್ನೇಹಿತ</string>
+    <string name="avatar_student">👩</string>
+    <string name="home_hero_title">ಕಲಿಯುತ್ತಿರಿ,\nಬೆಳೆಯುತ್ತಿರಿ!</string>
+    <string name="home_hero_subtitle">ತರಗತಿಗಳು, ಸಾಮಗ್ರಿಗಳು ಮತ್ತು ಪ್ರಗತಿಯನ್ನು ನೋಡಿ.</string>
+    <string name="home_illustration">✍️</string>
+    <string name="continue_learning">ಮುಂದುವರಿಸಿ</string>
+    <string name="quick_access">ತ್ವರಿತ ಪ್ರವೇಶ</string>
+    <string name="view_all">ಎಲ್ಲ ನೋಡಿ  ›</string>
+    <string name="my_classes">📗\nನನ್ನ ತರಗತಿಗಳು</string>
+    <string name="study_materials">📘\nಅಧ್ಯಯನ ಸಾಮಗ್ರಿ</string>
+    <string name="assignments">📋\nಕಾರ್ಯಗಳು</string>
+    <string name="my_progress">📊\nನನ್ನ ಪ್ರಗತಿ</string>
+    <string name="my_feedback_review">💬\nನನ್ನ ಪ್ರತಿಕ್ರಿಯೆ\nಮತ್ತು ವಿಮರ್ಶೆ</string>
+    <string name="upcoming_classes">ತರಗತಿ ಕ್ಯಾಲೆಂಡರ್</string>
+    <string name="today_date">20\nಮೇ</string>
+    <string name="sample_class_time"></string>
+    <string name="sample_class_title">ನಿಗದಿತ ತರಗತಿ ಇಲ್ಲ</string>
+    <string name="sample_class_mentor"></string>
+    <string name="progress_classes">ತರಗತಿಗಳು</string>
+    <string name="progress_assignments">ಕಾರ್ಯಗಳು</string>
+    <string name="progress_score">ಅಂಕಗಳು</string>
+    <string name="recent_materials">ಇತ್ತೀಚಿನ ಸಾಮಗ್ರಿಗಳು</string>
+    <string name="material_badge">ವಿಜ್ಞಾನ\n8ನೇ ತರಗತಿ</string>
+    <string name="sample_material_title">ಪ್ರಕಾಶ ಸಂಶ್ಲೇಷಣೆ - ಟಿಪ್ಪಣಿಗಳು</string>
+    <string name="sample_material_meta">ವಿಜ್ಞಾನ • PDF • 1.2 MB</string>
+    <string name="nav_home">ಮುಖಪುಟ</string>
+    <string name="nav_classes">ತರಗತಿಗಳು</string>
+    <string name="nav_materials">ಸಾಮಗ್ರಿ</string>
+    <string name="nav_tasks">ಕಾರ್ಯಗಳು</string>
+    <string name="nav_dashboard">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="nav_community">ಸಮುದಾಯ</string>
+    <string name="nav_tasks_connect">ಕಾರ್ಯಗಳು</string>
+    <string name="nav_profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="signed_in_user">ಸೈನ್ ಇನ್ ಮಾಡಿದ ಬಳಕೆದಾರ</string>
+    <string name="role_label">ಪಾತ್ರ: %1$s</string>
+    <string name="not_selected">ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ</string>
+    <string name="continue_text">ಮುಂದುವರಿಸಿ</string>
+    <string name="edit_guru_profile">ಗುರು ಪ್ರೊಫೈಲ್ ತಿದ್ದುಪಡಿ</string>
+    <string name="guru_profile">ಗುರು ಪ್ರೊಫೈಲ್</string>
+    <string name="guru_profile_title">ನಿಮ್ಮ ಗುರು ಪ್ರೊಫೈಲ್ ರಚಿಸಿ</string>
+    <string name="guru_profile_subtitle">ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ನಿಮ್ಮ ಬೋಧನಾ ವಿವರಗಳನ್ನು ಸಿದ್ಧವಾಗಿಡಿ.</string>
+    <string name="name">ಹೆಸರು</string>
+    <string name="skills">ಕೌಶಲ್ಯಗಳು</string>
+    <string name="experience">ಅನುಭವ</string>
+    <string name="available_time">ಲಭ್ಯ ಸಮಯ</string>
+    <string name="location">ಸ್ಥಳ</string>
+    <string name="save_profile">ಪ್ರೊಫೈಲ್ ಉಳಿಸಿ</string>
+    <string name="skill_mathematics">ಗಣಿತ</string>
+    <string name="skill_science">ವಿಜ್ಞಾನ</string>
+    <string name="skill_carpentry">ಮರಗೆಲಸ</string>
+    <string name="skill_english">ಇಂಗ್ಲಿಷ್</string>
+    <string name="skill_kannada">ಕನ್ನಡ</string>
+    <string name="skill_coding">ಕೋಡಿಂಗ್</string>
+    <string name="skill_music">ಸಂಗೀತ</string>
+    <string name="skill_yoga">ಯೋಗ</string>
+    <string name="search_mentors">ಮಾರ್ಗದರ್ಶಕರನ್ನು ಹುಡುಕಿ</string>
+    <string name="student_search">ಮಾರ್ಗದರ್ಶಕ ಹುಡುಕಾಟ</string>
+    <string name="student_search_title">ಮಾರ್ಗದರ್ಶಕರನ್ನು ಕಂಡುಹಿಡಿ</string>
+    <string name="student_search_subtitle">ಕೌಶಲ್ಯ ಮತ್ತು ಸ್ಥಳದ ಮೂಲಕ ಗುರು ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ.</string>
+    <string name="skill_filter">ಕೌಶಲ್ಯ ಫಿಲ್ಟರ್</string>
+    <string name="search">ಹುಡುಕಿ</string>
+    <string name="clear_filters">ಫಿಲ್ಟರ್ ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="no_mentors_found">ಈ ಫಿಲ್ಟರ್‌ಗಳಿಗೆ ಹೊಂದುವ ಮಾರ್ಗದರ್ಶಕರು ಇಲ್ಲ.</string>
+    <string name="class_calendar">ತರಗತಿ ಕ್ಯಾಲೆಂಡರ್</string>
+    <string name="upcoming_sessions">ಮುಂಬರುವ ತರಗತಿಗಳು</string>
+    <string name="upcoming_sessions_subtitle">ನಿಮ್ಮ ನಿಗದಿತ ತರಗತಿಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನವೀಕರಿಸುತ್ತವೆ.</string>
+    <string name="no_upcoming_sessions">ಇನ್ನೂ ಯಾವುದೇ ತರಗತಿಗಳಿಲ್ಲ</string>
+    <string name="wall_of_fame">ಗೌರವ ಗೋಡೆ</string>
+    <string name="wall_of_fame_title">ಧನ್ಯವಾದ ಗೋಡೆ</string>
+    <string name="wall_of_fame_subtitle">ವಿದ್ಯಾರ್ಥಿಗಳು ಗುರುಗಳಿಗೆ ಕೃತಜ್ಞತೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.</string>
+    <string name="thank_you_message">ಧನ್ಯವಾದ ಸಂದೇಶ</string>
+    <string name="suggest_message">ಸಂದೇಶ ಸೂಚಿಸಿ</string>
+    <string name="post_thank_you">ಧನ್ಯವಾದ ಪೋಸ್ಟ್ ಮಾಡಿ</string>
+    <string name="suggested_appreciation_1">ಸಹನೆಯಿಂದ ಮತ್ತು ಕಾಳಜಿಯಿಂದ ಕಲಿಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ಮಾರ್ಗದರ್ಶನ ನನಗೆ ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ಕಲಿಯಲು ಸಹಾಯ ಮಾಡಿತು.</string>
+    <string name="suggested_appreciation_2">ಪಾಠವನ್ನು ಸರಳವಾಗಿ ಮತ್ತು ಸ್ಪಷ್ಟವಾಗಿ ತಿಳಿಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ಸಮಯ ಮತ್ತು ಸಹಾಯಕ್ಕೆ ನಾನು ಕೃತಜ್ಞನಾಗಿದ್ದೇನೆ.</string>
+    <string name="suggested_appreciation_3">ನನ್ನನ್ನು ಪ್ರೋತ್ಸಾಹಿಸಿ, ನನ್ನ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ಸಹಾಯ ನನಗೆ ಬಹಳ ಉಪಯುಕ್ತವಾಯಿತು.</string>
+    <string name="no_appreciations">ಇನ್ನೂ ಧನ್ಯವಾದ ಸಂದೇಶಗಳಿಲ್ಲ.</string>
+    <string name="choose_role_error">ಗುರು ಅಥವಾ ವಿದ್ಯಾರ್ಥಿ ಆಯ್ಕೆ ಮಾಡಿ.</string>
+    <string name="sign_in_to_choose_role">ಪಾತ್ರ ಆಯ್ಕೆಮಾಡಲು ಮೊದಲು ಸೈನ್ ಇನ್ ಮಾಡಿ.</string>
+    <string name="only_guru_profile_error">ಗುರು ಬಳಕೆದಾರರು ಮಾತ್ರ ಗುರು ಪ್ರೊಫೈಲ್ ತಿದ್ದುಪಡಿ ಮಾಡಬಹುದು.</string>
+    <string name="guru_profile_saved">ಗುರು ಪ್ರೊಫೈಲ್ ಉಳಿಸಲಾಗಿದೆ.</string>
+    <string name="only_student_search_error">ವಿದ್ಯಾರ್ಥಿ ಬಳಕೆದಾರರು ಮಾತ್ರ ಮಾರ್ಗದರ್ಶಕರನ್ನು ಹುಡುಕಬಹುದು.</string>
+    <string name="sign_in_to_post_thanks">ಧನ್ಯವಾದ ಸಂದೇಶ ಪೋಸ್ಟ್ ಮಾಡಲು ಸೈನ್ ಇನ್ ಮಾಡಿ.</string>
+    <string name="thank_you_posted">ಧನ್ಯವಾದ ಸಂದೇಶ ಪೋಸ್ಟ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="back_arrow">‹</string>
+    <string name="chevron">›</string>
+    <string name="account_settings">ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="support_others">ಸಹಾಯ ಮತ್ತು ಇತರೆ</string>
+    <string name="edit_profile">ಪ್ರೊಫೈಲ್ ತಿದ್ದುಪಡಿ</string>
+    <string name="edit_profile_subtitle">ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ನವೀಕರಿಸಿ</string>
+    <string name="change_password">ಪಾಸ್ವರ್ಡ್ ಬದಲಿಸಿ</string>
+    <string name="change_password_subtitle">ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ನವೀಕರಿಸಿ</string>
+    <string name="notifications">ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="notifications_subtitle">ಅಧಿಸೂಚನೆ ಆಯ್ಕೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="language">ಭಾಷೆ</string>
+    <string name="language_subtitle">ನಿಮ್ಮ ಇಷ್ಟದ ಭಾಷೆ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="english">English</string>
+    <string name="theme">ಥೀಮ್</string>
+    <string name="theme_subtitle">ಆಪ್ ಥೀಮ್ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="light">ಲೈಟ್</string>
+    <string name="help_support">ಸಹಾಯ ಮತ್ತು ಬೆಂಬಲ</string>
+    <string name="help_support_subtitle">ಸಹಾಯ ಪಡೆದು ಬೆಂಬಲ ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="privacy_policy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
+    <string name="privacy_policy_subtitle">ನಮ್ಮ ಗೌಪ್ಯತಾ ನೀತಿ ಓದಿ</string>
+    <string name="terms_conditions">ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು</string>
+    <string name="terms_conditions_subtitle">ನಮ್ಮ ನಿಯಮಗಳು ಓದಿ</string>
+    <string name="logout_subtitle">ನಿಮ್ಮ ಖಾತೆಯಿಂದ ಲಾಗ್ ಔಟ್ ಮಾಡಿ</string>
+    <string name="study_materials_title">ಅಧ್ಯಯನ ಸಾಮಗ್ರಿ</string>
+    <string name="study_materials_subtitle">ಟಿಪ್ಪಣಿಗಳನ್ನು ಓದಿ, ಸಂಪನ್ಮೂಲಗಳನ್ನು ತೆರೆದು ಫೈಲ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.</string>
+    <string name="download_material">ಸಾಮಗ್ರಿ ಡೌನ್‌ಲೋಡ್</string>
+    <string name="open_material">ಸಾಮಗ್ರಿ ತೆರೆಯಿರಿ</string>
+    <string name="assignments_title">ಕಾರ್ಯಗಳು</string>
+    <string name="assignments_subtitle">ಬಾಕಿ ಕೆಲಸವನ್ನು ನೋಡಿ ಮತ್ತು ಉತ್ತರಗಳನ್ನು ಸಮಯಕ್ಕೆ ಸಲ್ಲಿಸಿ.</string>
+    <string name="submit_assignment">ಕಾರ್ಯ ಸಲ್ಲಿಸಿ</string>
+    <string name="view_assignment">ಕಾರ್ಯ ನೋಡಿ</string>
+    <string name="progress_title">ನನ್ನ ಪ್ರಗತಿ</string>
+    <string name="progress_percent">0%</string>
+    <string name="progress_summary">ವಾರದಿಂದ ವಾರಕ್ಕೆ ಸುಧಾರಿಸುತ್ತಿರುವ ಸರಾಸರಿ ಅಂಕ.</string>
+    <string name="badges_title">ಪಡೆದ ಬ್ಯಾಡ್ಜ್‌ಗಳು</string>
+    <string name="badges_list">🏆 ವೇಗದ ಕಲಿಕೆ\n📚 ಓದು ಚಾಂಪಿಯನ್\n✅ ಕಾರ್ಯ ನಕ್ಷತ್ರ</string>
+    <string name="notify_classes">ಮುಂಬರುವ ತರಗತಿ ನೆನಪಿಕೆಗಳು</string>
+    <string name="notify_assignments">ಕಾರ್ಯ ಕೊನೆಯ ದಿನ ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="notify_messages">ಸಂದೇಶಗಳು ಮತ್ತು ಕೃತಜ್ಞತೆಗಳು</string>
+    <string name="language_change_hint">ಭಾಷೆ ಆಯ್ಕೆ ಮಾಡಿ. ಆಪ್ ಪಠ್ಯ ತಕ್ಷಣ ಬದಲಾಗುತ್ತದೆ.</string>
+    <string name="kannada_language">ಕನ್ನಡ</string>
+    <string name="hindi_language">हिन्दी</string>
+    <string name="student_profile_note">ವಿದ್ಯಾರ್ಥಿ ಪ್ರೊಫೈಲ್ ತಿದ್ದುಪಡಿ ಪರದೆ ಇಲ್ಲಿ ಸಂಪರ್ಕಿಸಬಹುದು.</string>
+    <string name="password_reset_note">Firebase Authentication ಮೂಲಕ ಪಾಸ್ವರ್ಡ್ ರಿಸೆಟ್ ಕಳುಹಿಸಬಹುದು.</string>
+    <string name="theme_note">ಲೈಟ್ ಥೀಮ್ ಸಕ್ರಿಯವಾಗಿದೆ.</string>
+    <string name="help_note"><![CDATA[
+<big><b>ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು (FAQ)</b></big><br/><br/>
+
+<b><font color="#006B5D">ಪ: ನಾನು ಗುರುವಾಗಿ ನೋಂದಾಯಿಸಿಕೊಳ್ಳುವುದು ಹೇಗೆ?</font></b><br/>
+ಉ: "ಗುರು ಪ್ರೊಫೈಲ್" ವಿಭಾಗಕ್ಕೆ ಹೋಗಿ, ನಿಮ್ಮ ಕೌಶಲ್ಯಗಳನ್ನು (ಉದಾಹರಣೆಗೆ ವಿಜ್ಞಾನ, ಮರಗೆಲಸ) ಪಟ್ಟಿ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಲಭ್ಯವಿರುವ ವಾರಾಂತ್ಯದ ಸಮಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.<br/><br/>
+
+<b><font color="#006B5D">ಪ: ಭಾಷೆಯನ್ನು ಕನ್ನಡಕ್ಕೆ ಬದಲಾಯಿಸುವುದು ಹೇಗೆ?</font></b><br/>
+ಉ: ಆಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುವಿನಲ್ಲಿ ನೀವು ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡದ ನಡುವೆ ಬದಲಾಯಿಸಬಹುದು.<br/><br/>
+
+<b><font color="#006B5D">ಪ: ತರಗತಿಗಳು ಎಲ್ಲಿ ನಡೆಯುತ್ತವೆ?</font></b><br/>
+ಉ: ತರಗತಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಳೀಯ ಸಮುದಾಯ ಭವನದಲ್ಲಿ ಅಥವಾ "ತರಗತಿ ಕ್ಯಾಲೆಂಡರ್" ನಲ್ಲಿ ಪಟ್ಟಿ ಮಾಡಲಾದ ಸ್ಥಳಗಳಲ್ಲಿ ನಡೆಯುತ್ತವೆ.<br/><br/>
+
+<b><font color="#006B5D">ಪ: "ಗೌರವ ಗೋಡೆ" ಎಂದರೇನು?</font></b><br/>
+ಉ: ವಿದ್ಯಾರ್ಥಿಗಳು ತಮ್ಮ ಗುರುಗಳಿಗೆ ಧನ್ಯವಾದಗಳನ್ನು ಸಲ್ಲಿಸುವ ಸ್ಥಳವಿದು.<br/><br/><br/>
+
+_______________________________________<br/><br/>
+
+<big><b>ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</b></big><br/><br/>
+ನೀವು ಯಾವುದೇ ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸಿದರೆ ಅಥವಾ ಪ್ರೊಫೈಲ್ ವರದಿ ಮಾಡಲು ಬಯಸಿದರೆ:<br/><br/>
+• <b>ಇಮೇಲ್:</b> support@nimmaguru.org<br/>
+• <b>ಆಪ್‌ನಲ್ಲಿ:</b> ಮೆನುವಿನಲ್ಲಿರುವ "ದೂರು ಸಲ್ಲಿಸಿ" ಬಟನ್ ಒತ್ತಿರಿ.
+]]></string>
+    <string name="privacy_note"><![CDATA[
+<big><b>ಗೌಪ್ಯತಾ ನೀತಿ</b></big><br/><br/>
+<b>ಜಾರಿಗೆ ಬಂದ ದಿನಾಂಕ: ಮೇ 2026</b><br/><br/>
+
+Nimma-Guru ನಲ್ಲಿ, ನಾವು ನಮ್ಮ ಸಮುದಾಯದ ಸದಸ್ಯರ ಗೌಪ್ಯತೆಯನ್ನು ಗೌರವಿಸುತ್ತೇವೆ. ನಿಮ್ಮ ಡೇಟಾವನ್ನು ನಾವು ಹೇಗೆ ನಿರ್ವಹಿಸುತ್ತೇವೆ ಎಂಬುದು ಇಲ್ಲಿದೆ.<br/><br/>
+
+<b><font color="#006B5D">ನಾವು ಸಂಗ್ರಹಿಸುವ ಡೇಟಾ</font></b><br/>
+• <b>ಗುರುಗಳಿಗಾಗಿ:</b> ಹೆಸರು, ಕೌಶಲ್ಯಗಳು, ಲಭ್ಯತೆ ಮತ್ತು ಸ್ಥಳ.<br/>
+• <b>ವಿದ್ಯಾರ್ಥಿಗಳಿಗಾಗಿ:</b> ಹೆಸರು ಮತ್ತು ಸ್ಥಳ.<br/>
+• <b>ವಿಷಯ:</b> "ಗೌರವ ಗೋಡೆ" ಯಲ್ಲಿ ಪೋಸ್ಟ್ ಮಾಡಿದ ಧನ್ಯವಾದ ಟಿಪ್ಪಣಿಗಳು.<br/><br/>
+
+<b><font color="#006B5D">ನಿಮ್ಮ ಡೇಟಾವನ್ನು ನಾವು ಹೇಗೆ ಬಳಸುತ್ತೇವೆ</font></b><br/>
+• ಮಾರ್ಗದರ್ಶಕರು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳ ನಡುವಿನ ಸಂಪರ್ಕಕ್ಕೆ ಅನುಕೂಲ ಮಾಡಿಕೊಡಲು.<br/>
+• ಸಮುದಾಯ ಭವನಗಳಿಗಾಗಿ ತರಗತಿ ಕ್ಯಾಲೆಂಡರ್ ಪ್ರದರ್ಶಿಸಲು.<br/><br/>
+
+<b><font color="#006B5D">ಭದ್ರತೆ</font></b><br/>
+ಡೇಟಾವನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಲು ನಾವು <b>Firebase Firestore</b> ಅನ್ನು ಬಳಸುತ್ತೇವೆ.
+]]></string>
+    <string name="terms_note"><![CDATA[
+<big><b>ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು</b></big><br/><br/>
+<b>ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ: ಮೇ 2026</b><br/><br/>
+
+ಬಳಕೆದಾರರ ಪಾತ್ರಗಳು:<br/><br/>
+• <b>ಗುರುಗಳು:</b> ಸ್ವಯಂಪ್ರೇರಿತ, ವಾಣಿಜ್ಯೇತರ ಬೋಧನೆಯನ್ನು ನೀಡಲು ಒಪ್ಪುತ್ತೀರಿ. ನೀವು ಪಟ್ಟಿ ಮಾಡುವ ಕೌಶಲ್ಯಗಳ ನಿಖರತೆಗೆ ನೀವೇ ಜವಾಬ್ದಾರರಾಗಿರುತ್ತೀರಿ.<br/>
+• <b>ವಿದ್ಯಾರ್ಥಿಗಳು:</b> ವೇದಿಕೆಯನ್ನು ಶೈಕ್ಷಣಿಕ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಬಳಸಲು ಮತ್ತು ಗುರುಗಳೊಂದಿಗೆ ಗೌರವಯುತವಾಗಿ ಸಂವಹನ ನಡೆಸಲು ಒಪ್ಪುತ್ತೀರಿ.<br/><br/>
+
+<b><font color="#006B5D">ನಡವಳಿಕೆಯ ನಿಯಮಗಳು</font></b><br/>
+• <b>ವಾಣಿಜ್ಯೇತರ ಸ್ವರೂಪ:</b> ಈ ಆಪ್ "ಜ್ಞಾನ-ದಾನ" ಕ್ಕಾಗಿರುವ ವೇದಿಕೆಯಾಗಿದೆ. ಯಾವುದೇ ಬಳಕೆದಾರರು ಈ ಆಪ್ ಮೂಲಕ ಸೇವೆಗಳಿಗೆ ಶುಲ್ಕ ವಿಧಿಸಬಾರದು.<br/>
+• <b>ಗೌರವಯುತ ಸಂವಹನ:</b> ಯಾವುದೇ ರೀತಿಯ ಕಿರುಕುಳ ಅಥವಾ ಅಸಭ್ಯ ವಿಷಯವು ಖಾತೆಯ ಅಮಾನತಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ.<br/>
+• <b>ಸುರಕ್ಷತೆ:</b> ತರಗತಿಗಳು ಸಮುದಾಯ ಭವನದಂತಹ ಸಾರ್ವಜನಿಕ ಸ್ಥಳಗಳಲ್ಲಿ ನಡೆಯುವಂತೆ ನಾವು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತೇವೆ.<br/><br/>
+
+<b><font color="#006B5D">ಹಕ್ಕುತ್ಯಾಗ</font></b><br/>
+Nimma-Guru ಒಂದು ಡೈರೆಕ್ಟರಿ ಸೇವೆಯಾಗಿದೆ. ನಾವು ಬಳಕೆದಾರರ ಹಿನ್ನೆಲೆ ಪರಿಶೀಲನೆ ನಡೆಸುವುದಿಲ್ಲ. ಬಳಕೆದಾರರು ಜಾಗರೂಕರಾಗಿರಲು ಮತ್ತು ಸಾರ್ವಜನಿಕ ಸ್ಥಳಗಳಲ್ಲಿ ಭೇಟಿಯಾಗಲು ಪ್ರೋತ್ಸಾಹಿಸಲಾಗುತ್ತದೆ.
+]]></string>
+    <string name="icon_profile">♙</string>
+    <string name="icon_lock">🔒</string>
+    <string name="icon_bell">🔔</string>
+    <string name="icon_language">◎</string>
+    <string name="icon_theme">☾</string>
+    <string name="icon_help">?</string>
+    <string name="icon_privacy">◇</string>
+    <string name="icon_terms">▤</string>
+    <string name="icon_logout">↪</string>
+    <string name="report_issue">ದೂರು ಸಲ್ಲಿಸಿ</string>
+    <string name="report_issue_subtitle">ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆಗಳು ಅಥವಾ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ವರದಿ ಮಾಡಿ</string>
+    <string name="icon_report">🚩</string>
+    <string name="report_sent">ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ವರದಿಯನ್ನು ನಮ್ಮ ತಂಡ ಪರಿಶೀಲಿಸುತ್ತದೆ.</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="manage_sessions">ತರಗತಿಗಳನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="enrolled_classes">ಸೇರ್ಪಡೆಗೊಂಡ ತರಗತಿಗಳು</string>
+    <string name="enroll_now">ಈಗ ನೋಂದಾಯಿಸಿ</string>
+    <string name="enrolled_check">ನೋಂದಾಯಿಸಲಾಗಿದೆ ✓</string>
+    <string name="students_enrolled_count">ವಿದ್ಯಾರ್ಥಿಗಳು: %1$s</string>
+    <string name="no_students_enrolled">ಇನ್ನೂ ಯಾವುದೇ ವಿದ್ಯಾರ್ಥಿಗಳು ನೋಂದಾಯಿಸಿಕೊಂಡಿಲ್ಲ.</string>
+    <string name="experience_years_format">ಅನುಭವ: %1$s ವರ್ಷಗಳು</string>
+    <string name="view_students">ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ನೋಡಿ</string>
+    <string name="choose_avatar">ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅವತಾರವನ್ನು ಆರಿಸಿ</string>
+    <string name="connect_with_gurus">ಇತರ ಗುರುಗಳೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="guru_community_subtitle">ನಿಮ್ಮ ಸಮುದಾಯದ ಇತರ ತಜ್ಞರೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ ಮತ್ತು ಜ್ಞಾನವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ.</string>
+    <string name="continue_teaching">ಬೋಧನೆಯನ್ನು ಮುಂದುವರಿಸಿ</string>
+    <string name="create_class_session">ತರಗತಿಯನ್ನು ರಚಿಸಿ</string>
+    <string name="subject">ವಿಷಯ</string>
+    <string name="target_grade">ಗುರಿ ತರಗತಿ</string>
+    <string name="board">ಮಂಡಳಿ (Board)</string>
+    <string name="no_notes_available">ಯಾವುದೇ ಟಿಪ್ಪಣಿಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="no_materials_found">ಯಾವುದೇ ಸಾಮಗ್ರಿಗಳು ಇನ್ನೂ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="science_subject">ವಿಜ್ಞಾನ</string>
+    <string name="mathematics_subject">ಗಣಿತ</string>
+    <string name="english_subject">ಇಂಗ್ಲಿಷ್</string>
+    <string name="kannada_subject">ಕನ್ನಡ</string>
+    <string name="social_science_subject">ಸಮಾಜ ವಿಜ್ಞಾನ</string>
+    <string name="classes_taken_count">ಬೋಧಿಸಿದ ತರಗತಿಗಳು: %1$s</string>
+    <string name="grade_format">ತರಗತಿ: %1$s</string>
+    <string name="samudaya_bhavana_address">ಸಮುದಾಯ ಭವನದ ವಿಳಾಸ</string>
+    <string name="samudaya_bhavana_format">ಸಮುದಾಯ ಭವನ: %1$s</string>
+    <string name="target_grade_label">ಗುರಿ ತರಗತಿ: %1$s</string>
+    <string name="board_label">ಮಂಡಳಿ: %1$s</string>
+    <string name="location_label">ಸ್ಥಳ: %1$s</string>
+    <string name="guru_name_hint">ಗುರುಗಳ ಹೆಸರು (ಉದಾ. ರಮೇಶ್)</string>
+    <string name="detailed_address_hint">ವಿವರವಾದ ವಿಳಾಸ (ಉದಾ. ರಸ್ತೆ/ಕಟ್ಟಡ)</string>
+    <string name="no_sessions_found">ಮುಂಬರುವ ಯಾವುದೇ ತರಗತಿಗಳಿಲ್ಲ</string>
+    <string name="community_search_subtitle">Find nearby Gurus and send a message to collaborate.</string>
+    <string name="message_guru">Message</string>
+    <string name="guru_chat">Guru Chat</string>
+    <string name="no_messages_yet">No messages yet. Start the conversation.</string>
+    <string name="type_message">Type a message</string>
+    <string name="send">Send</string>
+</resources>

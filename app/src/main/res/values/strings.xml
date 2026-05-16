@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nimma-Guru</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue learning and teaching.</string>
+    <string name="brand_title">NIMMA-GURU</string>
+    <string name="brand_tagline">Guiding Minds, Building Futures</string>
+    <string name="login_illustration">📚</string>
+    <string name="teacher">Guru</string>
+    <string name="email_or_phone">Email or Phone Number</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_arrow">Login  →</string>
+    <string name="or_text">OR</string>
+    <string name="continue_google">G  Continue with Google</string>
+    <string name="study_benefit">Study\nAccess materials</string>
+    <string name="learn_benefit">Learn\nAttend live classes</string>
+    <string name="achieve_benefit">Achieve\nTrack goals</string>
+    <string name="google_placeholder">Google sign-in can be connected from Firebase Console.</string>
+    <string name="email_required">Email is required</string>
+    <string name="invalid_email">Enter a valid email address</string>
+    <string name="password_required">Password is required</string>
+    <string name="login_successful">Login successful</string>
+    <string name="login_failed">Login failed: %1$s</string>
+    <string name="role_check_failed">Error checking role: %1$s</string>
+    <string name="firebase_setup_required_title">Firebase setup required</string>
+    <string name="firebase_setup_required_message">Add your Firebase google-services.json file inside the app folder, then sync and run again.</string>
+    <string name="firebase_setup_required_button">Waiting for Firebase setup</string>
+    <string name="signup_title">Create your account</string>
+    <string name="signup_subtitle">Join NimmaGuru with your email address.</string>
+    <string name="role_title">Choose your role</string>
+    <string name="role_subtitle">Select how you want to use NimmaGuru.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="create_account">Create account</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="guru">Guru</string>
+    <string name="student">Student</string>
+    <string name="home_welcome">Welcome to NimmaGuru</string>
+    <string name="home_greeting">%1$s, %2$s!</string>
+    <string name="greeting_morning">Good Morning</string>
+    <string name="greeting_afternoon">Good Afternoon</string>
+    <string name="greeting_evening">Good Evening</string>
+    <string name="greeting_welcome_back">Welcome Back</string>
+    <string name="friend">Friend</string>
+    <string name="avatar_student">👩</string>
+    <string name="home_hero_title">Keep Learning,\nKeep Growing!</string>
+    <string name="home_hero_subtitle">Access classes, materials and track your progress.</string>
+    <string name="home_illustration">✍️</string>
+    <string name="continue_learning">Continue</string>
+    <string name="quick_access">Quick Access</string>
+    <string name="view_all">View All  ›</string>
+    <string name="my_classes">📗\nMy Classes</string>
+    <string name="study_materials">📘\nStudy Materials</string>
+    <string name="assignments">📋\nAssignments</string>
+    <string name="my_progress">📊\nMy Progress</string>
+    <string name="my_feedback_review">💬\nMy Feedback\n&amp; Review</string>
+    <string name="upcoming_classes">Class Calendar</string>
+    <string name="today_date">20\nMay</string>
+    <string name="sample_class_time"></string>
+    <string name="sample_class_title">No upcoming classes yet</string>
+    <string name="sample_class_mentor"></string>
+    <string name="progress_classes">Open\nProgress</string>
+    <string name="progress_assignments">Current\nTasks</string>
+    <string name="progress_score">Current\nBadges</string>
+    <string name="recent_materials">Recently Added Materials</string>
+    <string name="material_badge">FILE</string>
+    <string name="sample_material_title">No recent materials yet</string>
+    <string name="sample_material_meta"></string>
+    <string name="nav_home">Home</string>
+    <string name="nav_classes">Classes</string>
+    <string name="nav_materials">Materials</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_tasks_connect">Tasks</string>
+    <string name="nav_community">Community</string>
+    <string name="nav_profile">Profile</string>
+    <string name="signed_in_user">Signed in user</string>
+    <string name="role_label">Role: %1$s</string>
+    <string name="not_selected">Not selected</string>
+    <string name="continue_text">Continue</string>
+    <string name="edit_guru_profile">Edit Guru Profile</string>
+    <string name="guru_profile">Guru Profile</string>
+    <string name="guru_profile_title">Create your Guru profile</string>
+    <string name="guru_profile_subtitle">Keep your teaching details ready for students.</string>
+    <string name="name">Name</string>
+    <string name="skills">Skills</string>
+    <string name="experience">Experience</string>
+    <string name="available_time">Available time</string>
+    <string name="location">Location</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="skill_mathematics">Mathematics</string>
+    <string name="skill_science">Science</string>
+    <string name="skill_carpentry">Carpentry</string>
+    <string name="skill_english">English</string>
+    <string name="skill_kannada">Kannada</string>
+    <string name="skill_coding">Coding</string>
+    <string name="skill_music">Music</string>
+    <string name="skill_yoga">Yoga</string>
+    <string name="search_mentors">Search Mentors</string>
+    <string name="student_search">Mentor Search</string>
+    <string name="student_search_title">Find a mentor</string>
+    <string name="student_search_subtitle">Filter Guru profiles by skill and location.</string>
+    <string name="skill_filter">Skill filter</string>
+    <string name="search">Search</string>
+    <string name="clear_filters">Clear filters</string>
+    <string name="no_mentors_found">No mentors match these filters yet.</string>
+    <string name="class_calendar">Class Calendar</string>
+    <string name="upcoming_sessions">Upcoming sessions</string>
+    <string name="upcoming_sessions_subtitle">Your scheduled classes update automatically.</string>
+    <string name="no_upcoming_sessions">No upcoming classes yet</string>
+    <string name="wall_of_fame">Wall of Fame</string>
+    <string name="wall_of_fame_title">Thank You wall</string>
+    <string name="wall_of_fame_subtitle">Students can share appreciation for mentors.</string>
+    <string name="thank_you_message">Thank You message</string>
+    <string name="suggest_message">Suggest Message</string>
+    <string name="post_thank_you">Post Thank You</string>
+    <string name="suggested_appreciation_1">Thank you for teaching with patience and kindness. Your guidance helped me learn with confidence.</string>
+    <string name="suggested_appreciation_2">Thank you for making the lesson simple and clear. I appreciate your time and support.</string>
+    <string name="suggested_appreciation_3">Thank you for encouraging me and answering my questions. Your help made a real difference.</string>
+    <string name="no_appreciations">No Thank You messages yet.</string>
+    <string name="choose_role_error">Choose Guru or Student.</string>
+    <string name="choose_curriculum_error">Choose a curriculum to continue.</string>
+    <string name="choose_grade_error">Choose your grade from 5 to 10.</string>
+    <string name="sign_in_to_choose_role">Sign in before choosing a role.</string>
+    <string name="only_guru_profile_error">Only Guru users can edit Guru profiles.</string>
+    <string name="guru_profile_saved">Guru profile saved.</string>
+    <string name="only_student_search_error">Only Student users can search mentors.</string>
+    <string name="sign_in_to_post_thanks">Sign in to post a Thank You message.</string>
+    <string name="thank_you_posted">Thank You message posted.</string>
+    <string name="settings">Settings</string>
+    <string name="back_arrow">‹</string>
+    <string name="chevron">›</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="support_others">Support &amp; Others</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_profile_subtitle">Update your personal information</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password_subtitle">Update your password</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_subtitle">Manage your notification preferences</string>
+    <string name="language">Language</string>
+    <string name="language_subtitle">Choose your preferred language</string>
+    <string name="english">English</string>
+    <string name="theme">Theme</string>
+    <string name="theme_subtitle">Choose your app theme</string>
+    <string name="light">Light</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="help_support_subtitle">Get help and contact support</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_subtitle">Read our privacy policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="terms_conditions_subtitle">Read our terms and conditions</string>
+    <string name="logout_subtitle">Log out from your account</string>
+    <string name="study_materials_title">Study Materials</string>
+    <string name="study_materials_subtitle">Read notes, open resources, and download learning files.</string>
+    <string name="material_one_title">No material selected</string>
+    <string name="material_one_meta">No uploaded file yet.</string>
+    <string name="material_two_title">No material selected</string>
+    <string name="material_two_meta">No uploaded file yet.</string>
+    <string name="download_material">Download Material</string>
+    <string name="open_material">Open Material</string>
+    <string name="assignments_title">Assignments</string>
+    <string name="assignments_subtitle">Track pending work and submit your answers on time.</string>
+    <string name="assignment_one_title">Algebra Practice Worksheet</string>
+    <string name="assignment_one_meta">Due Tomorrow • 10 questions • Pending</string>
+    <string name="assignment_two_title">Science Diagram Labelling</string>
+    <string name="assignment_two_meta">Submitted • Waiting for review</string>
+    <string name="submit_assignment">Submit Assignment</string>
+    <string name="view_assignment">View Assignment</string>
+    <string name="progress_title">My Progress</string>
+    <string name="progress_percent">0%</string>
+    <string name="progress_summary">Progress appears after classes, submissions, and scores are recorded.</string>
+    <string name="badges_title">Badges Earned</string>
+    <string name="badges_list">🏆 Fast Learner\n📚 Reading Champion\n✅ Assignment Star</string>
+    <string name="notify_classes">Upcoming class reminders</string>
+    <string name="notify_assignments">Assignment due alerts</string>
+    <string name="notify_messages">Messages and appreciations</string>
+    <string name="language_change_hint">Choose a language. The app text updates immediately.</string>
+    <string name="kannada_language">ಕನ್ನಡ</string>
+    <string name="hindi_language">हिन्दी</string>
+    <string name="student_profile_note">Student profile editing screen can be connected here.</string>
+    <string name="password_reset_note">Password reset can be sent from Firebase Authentication.</string>
+    <string name="theme_note">Light theme is active.</string>
+    <string name="help_note"><![CDATA[
+<big><b>Frequently Asked Questions (FAQ)</b></big><br/><br/>
+
+<b><font color="#006B5D">Q: How do I register as a Guru?</font></b><br/>
+A: Go to the "Guru Profile" section, list your skills (e.g., Science, Carpentry), and select your available weekend hours.<br/><br/>
+
+<b><font color="#006B5D">Q: How do I change the language to Kannada?</font></b><br/>
+A: You can toggle between English and Kannada in the App Settings menu. The UI is designed to support both seamlessly.<br/><br/>
+
+<b><font color="#006B5D">Q: Where do the classes take place?</font></b><br/>
+A: Classes are typically held at the local Samudaya Bhavana or designated community centers listed in the "Class Calendar."<br/><br/>
+
+<b><font color="#006B5D">Q: What is the "Wall of Fame"?</font></b><br/>
+A: This is where students post "Thank You" notes to appreciate their Gurus. The top-rated mentors are highlighted here to celebrate their contribution to the community.<br/><br/><br/>
+
+_______________________________________<br/><br/>
+
+<big><b>Contact Us</b></big><br/><br/>
+If you encounter any technical issues or wish to report a profile:<br/><br/>
+• <b>Email:</b> support@nimmaguru.org<br/>
+• <b>In-App:</b> Tap on the "Report an Issue" button within the menu.
+]]></string>
+    <string name="privacy_note"><![CDATA[
+<big><b>Privacy Policy</b></big><br/><br/>
+<b>Effective Date: May 2026</b><br/><br/>
+
+At <b>Nimma-Guru</b>, we value the privacy of our community members. This policy explains how we handle your data.<br/><br/>
+
+<b><font color="#006B5D">Data We Collect</font></b><br/>
+• <b>For Gurus:</b> Name, skills (e.g., Math, Carpentry), availability, and location (Village/Street).<br/>
+• <b>For Students:</b> Name and location to help find local mentors.<br/>
+• <b>Content:</b> "Thank You" notes and appreciation messages posted on the "Wall of Fame."<br/><br/>
+
+<b><font color="#006B5D">How We Use Your Data</font></b><br/>
+• To facilitate the connection between mentors and students.<br/>
+• To display the Class Calendar for local community centers (Samudaya Bhavana).<br/>
+• To improve the GenAI features of the app for better search results.<br/><br/>
+
+<b><font color="#006B5D">Data Sharing</font></b><br/>
+• We <b>do not</b> sell your data.<br/>
+• Your profile (Skills and Availability) is visible to other users within your locality to enable the mentorship process.<br/><br/>
+
+<b><font color="#006B5D">Security</font></b><br/>
+We use <b>Firebase Firestore</b> to store data securely. While we strive to protect your information, no digital storage is 100% secure.
+]]></string>
+    <string name="terms_note"><![CDATA[
+<big><b>Terms and Conditions</b></big><br/><br/>
+<b>Last Updated: May 2026</b><br/><br/>
+
+By using the Nimma-Guru app, you agree to the following:<br/><br/>
+
+<b><font color="#006B5D">User Roles</font></b><br/>
+• <b>Gurus:</b> Agree to provide voluntary, non-commercial tutoring. You are responsible for the accuracy of your listed skills.<br/>
+• <b>Students:</b> Agree to use the platform for educational purposes and to interact with Gurus respectfully.<br/><br/>
+
+<b><font color="#006B5D">Code of Conduct</font></b><br/>
+• <b>Non-Commercial Nature:</b> This app is a platform for "Gyaan-Daan." No user shall charge fees for services rendered through this app.<br/>
+• <b>Respectful Interaction:</b> Any form of harassment, hate speech, or inappropriate content in "Thank You" notes will lead to immediate account suspension.<br/>
+• <b>Safety:</b> While we facilitate connections, we encourage all sessions to take place in public community centers like the Samudaya Bhavana.<br/><br/>
+
+<b><font color="#006B5D">Disclaimer</font></b><br/>
+Nimma-Guru is a directory service. We do not perform background checks on users. Users are encouraged to exercise caution and meet in public group settings.
+]]></string>
+    <string name="icon_profile">♙</string>
+    <string name="icon_lock">🔒</string>
+    <string name="icon_bell">🔔</string>
+    <string name="icon_language">◎</string>
+    <string name="icon_theme">☾</string>
+    <string name="icon_help">?</string>
+    <string name="icon_privacy">◇</string>
+    <string name="icon_terms">▤</string>
+    <string name="icon_logout">↪</string>
+    <string name="report_issue">Report an Issue</string>
+    <string name="report_issue_subtitle">Report technical problems or profiles</string>
+    <string name="icon_report">🚩</string>
+    <string name="report_sent">Thank you. Our team will review your report.</string>
+    <string name="logout">Logout</string>
+    <string name="filter_subject">Filter by subject</string>
+    <string name="no_materials_found">No notes available yet</string>
+    <string name="save_material">Save</string>
+    <string name="saved_material">Saved</string>
+    <string name="sign_in_required">Please sign in to continue.</string>
+    <string name="assignment_meta_format">%1$s • Due %2$s • %3$s</string>
+    <string name="assignment_score_format">Score: %1$d</string>
+    <string name="update_submission">Update Submission</string>
+    <string name="submission_hint">Write your answer, link, or notes here.</string>
+    <string name="no_assignments_found">No tasks available yet</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="progress_score_percent">%1$s%% average score</string>
+    <string name="progress_live_summary">%1$s classes attended • %2$s assignments submitted • %3$s day streak</string>
+    <string name="no_badges_yet">No badges yet.</string>
+    <string name="no_recent_activity">No recent activity yet.</string>
+    <string name="create_class_session">Create Class Session</string>
+    <string name="class_date_hint">Date: 20-05-2026</string>
+    <string name="class_time_hint">Time: 6:00 PM</string>
+    <string name="subject">Subject</string>
+    <string name="save">Save</string>
+    <string name="password_reset_sent">Password reset email sent.</string>
+    <string name="password_reset_sent_check_inbox">Password reset email sent. Please check Inbox and Spam.</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="current_password_required">Current password is required</string>
+    <string name="password_minimum_error">Password must be at least 6 characters</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="password_changed">Password changed successfully.</string>
+    <string name="password_change_failed">Could not change password. Please try again.</string>
+    <string name="theme_updated">Theme updated.</string>
+    <string name="google_sign_in_failed">Google sign-in could not get a secure token. Check Firebase Google provider setup.</string>
+    <string name="google_client_id_missing">Add your Firebase Web client ID to google_web_client_id before using Google Sign-In.</string>
+    <string name="google_web_client_id">493684221280-vep7a7jm5n44ab17hnoo5e1q66ute0n7.apps.googleusercontent.com</string>
+    <string name="upload_notes">Upload Notes</string>
+    <string name="view_syllabus">View Syllabus</string>
+    <string name="notes_link">Notes link</string>
+    <string name="board">Board</string>
+    <string name="class_level">Class level</string>
+    <string name="curriculum_title">Choose curriculum</string>
+    <string name="karnataka_state_board">Karnataka State Board</string>
+    <string name="cbse">CBSE</string>
+    <string name="both">Both</string>
+    <string name="select_file">Select file</string>
+    <string name="selected_file_format">Selected: %1$s</string>
+    <string name="upload_file_required">Select a PDF, DOC, DOCX, or image file.</string>
+    <string name="upload_file_too_large">File must be 10MB or smaller.</string>
+    <string name="upload_file_type_invalid">Only PDF, DOC, DOCX, JPG, PNG, WEBP, or GIF files are allowed.</string>
+    <string name="contributor_badge_awarded">Notes uploaded. Contributor badge awarded.</string>
+    <string name="upload_badge_unlocked">Upload Badge unlocked</string>
+    <string name="samudaya_bhavana_free_hours">Samudaya Bhavana Free Hours</string>
+    <string name="available_at_samudaya_bhavana">Available at Samudaya Bhavana</string>
+    <string name="select_grade">Select Grade/Class (5-10)</string>
+    <string name="no_student_profile_found">No student profile found with this account</string>
+    <string name="no_guru_profile_found">No Guru profile found with this account</string>
+    <string name="continue_teaching">Continue Teaching</string>
+    <string name="all_categories">All Categories</string>
+    <string name="no_live_classes">No upcoming classes yet</string>
+    <string name="grade_updated">Grade updated.</string>
+    <string name="class_label">Class %1$d</string>
+    <string name="select_class_for_syllabus">Select a class to view syllabus.</string>
+    <string name="select_subject_for_syllabus">Select a subject to view chapters.</string>
+    <string name="no_syllabus_available">No syllabus available yet.</string>
+    <string name="target_grade_format">Target Grade: %1$s</string>
+    <string name="board_format">Board: %1$s</string>
+    <string name="subject_format">Subject: %1$s</string>
+    <string name="location_format">Location: %1$s</string>
+    <string name="empty_notes_bitmoji">SEARCH</string>
+    <string name="waving_guru">GURU</string>
+    <string name="personalization_title">Welcome to Nimma-Guru</string>
+    <string name="personalization_subtitle">A name helps Gurus and students greet each other with warmth.</string>
+    <string name="what_name_should_we_call_you">What name should we call you?</string>
+    <string name="name_required">Please enter your name.</string>
+    <string name="continue_action">Continue</string>
+    <string name="upload_link">Upload Link</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="notes_link_required">Enter a notes link.</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="edit_session">Edit class session</string>
+    <string name="delete_session">Delete class session</string>
+    <string name="delete_session_confirm">Delete this class session?</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="user_dashboard">UserDashboard</string>
+    <string name="dashboard_summary">Profile Settings</string>
+    <string name="guru_dashboard_summary">Guru Profile</string>
+    <string name="student_dashboard_summary">Student Profile</string>
+    <string name="manage_sessions">Manage Sessions</string>
+    <string name="enrolled_classes">Enrolled Classes</string>
+    <string name="badge_none">Bronze</string>
+    <string name="badge_level_format">Badge Level: %1$s</string>
+    <string name="task_manager">Task Manager</string>
+    <string name="assigned_tasks">Assigned Tasks</string>
+    <string name="guru_task_manager_summary">Task Manager</string>
+    <string name="create_task">Create Task</string>
+    <string name="task_created">Task created.</string>
+    <string name="student_grade">Student Grade (e.g. 8)</string>
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="due_date">Due Date</string>
+    <string name="no_tasks_found">No tasks found yet.</string>
+    <string name="enroll_now">Enroll Now</string>
+    <string name="enrolled_check">Enrolled ✓</string>
+    <string name="students_enrolled_count">Students: %1$s</string>
+    <string name="no_students_enrolled">No students enrolled yet.</string>
+    <string name="experience_years_format">Experience: %1$s years</string>
+    <string name="view_students">View Students</string>
+    <string name="choose_avatar">Choose your profile avatar</string>
+    <string name="connect_with_gurus">Connect with other Gurus</string>
+    <string name="guru_community_subtitle">Connect and share knowledge with other experts in your community.</string>
+    <string name="community_search_subtitle">Find nearby Gurus and send a message to collaborate.</string>
+    <string name="message_guru">Message</string>
+    <string name="guru_chat">Guru Chat</string>
+    <string name="no_messages_yet">No messages yet. Start the conversation.</string>
+    <string name="type_message">Type a message</string>
+    <string name="send">Send</string>
+    <string name="samudaya_bhavana_address">Samudaya Bhavana Address</string>
+    <string name="samudaya_bhavana_format">Samudaya Bhavana: %1$s</string>
+    <string name="classes_taken_count">Classes Taken: %1$s</string>
+    <string name="grade_format">Grade: %1$s</string>
+    <string name="target_grade">Target Grade</string>
+    <string name="no_notes_available">No notes available yet</string>
+    <string name="science_subject">Science</string>
+    <string name="mathematics_subject">Mathematics</string>
+    <string name="english_subject">English</string>
+    <string name="kannada_subject">Kannada</string>
+    <string name="social_science_subject">Social Science</string>
+    <string name="target_grade_label">Target Grade: %1$s</string>
+    <string name="board_label">Board: %1$s</string>
+    <string name="location_label">Location: %1$s</string>
+    <string name="guru_name_hint">Guru Name (e.g. Ramesh)</string>
+    <string name="detailed_address_hint">Detailed Address (e.g. Street/Building)</string>
+    <string name="no_sessions_found">No upcoming classes yet</string>
+</resources>

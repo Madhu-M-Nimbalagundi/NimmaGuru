@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/bg_app" android:orientation="vertical" android:padding="@dimen/screen_padding">
+    <TextView android:id="@+id/backButton" style="@style/TextAppearance.NimmaGuru.Title" android:layout_width="wrap_content" android:layout_height="48dp" android:gravity="center" android:text="@string/back_arrow" android:textColor="@color/brand_green" />
+    <TextView style="@style/TextAppearance.NimmaGuru.Headline" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/notifications" android:textColor="@color/brand_green" android:textStyle="bold" />
+    <CheckBox android:id="@+id/classesCheckBox" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:layout_marginTop="20dp" android:checked="true" android:text="@string/notify_classes" android:textSize="@dimen/text_body" />
+    <CheckBox android:id="@+id/assignmentsCheckBox" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:checked="true" android:text="@string/notify_assignments" android:textSize="@dimen/text_body" />
+    <CheckBox android:id="@+id/messagesCheckBox" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:checked="true" android:text="@string/notify_messages" android:textSize="@dimen/text_body" />
+</LinearLayout>

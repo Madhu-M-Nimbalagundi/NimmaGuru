@@ -1,0 +1,62 @@
+{
+  "version": "2026",
+  "schema": "curriculum -> class -> subject -> chapter -> topics",
+  "curricula": [
+    {
+      "curriculum_type": "cbse",
+      "name": "CBSE",
+      "classes": [
+        {
+          "class_level": "Class 10",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "chapters": [
+                { "chapter": "Real Numbers", "topics": ["Euclid division lemma", "Fundamental theorem of arithmetic", "Decimal expansions"] },
+                { "chapter": "Polynomials", "topics": ["Zeros of a polynomial", "Relationship between zeros and coefficients"] },
+                { "chapter": "Pair of Linear Equations in Two Variables", "topics": ["Graphical method", "Substitution", "Elimination", "Cross multiplication"] },
+                { "chapter": "Quadratic Equations", "topics": ["Standard form", "Factorisation", "Quadratic formula", "Discriminant"] },
+                { "chapter": "Arithmetic Progressions", "topics": ["Nth term", "Sum of first n terms"] }
+              ]
+            },
+            {
+              "subject": "Science",
+              "chapters": [
+                { "chapter": "Chemical Reactions and Equations", "topics": ["Balancing equations", "Types of reactions", "Oxidation and reduction"] },
+                { "chapter": "Life Processes", "topics": ["Nutrition", "Respiration", "Transportation", "Excretion"] },
+                { "chapter": "Electricity", "topics": ["Ohm law", "Resistance", "Series and parallel circuits", "Electric power"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "curriculum_type": "karnataka_state_board",
+      "name": "Karnataka State Board",
+      "classes": [
+        {
+          "class_level": "Class 10",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "chapters": [
+                { "chapter": "Arithmetic Progressions", "topics": ["Sequence patterns", "Nth term", "Sum of terms"] },
+                { "chapter": "Triangles", "topics": ["Similarity", "Pythagoras theorem", "Applications"] },
+                { "chapter": "Statistics", "topics": ["Mean", "Median", "Mode", "Ogive"] }
+              ]
+            },
+            {
+              "subject": "Science",
+              "chapters": [
+                { "chapter": "Chemical Reactions and Equations", "topics": ["Chemical equations", "Types of chemical reactions", "Oxidation and reduction"] },
+                { "chapter": "Life Processes", "topics": ["Nutrition", "Respiration", "Transportation", "Excretion"] },
+                { "chapter": "Light Reflection and Refraction", "topics": ["Mirrors", "Lenses", "Image formation", "Lens formula"] }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
