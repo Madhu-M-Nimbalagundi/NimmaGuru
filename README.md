@@ -187,32 +187,6 @@ Task documents are stored in the top-level `tasks` collection:
 - Keep `app/google-services.json`, `local.properties`, APK files, and build folders out of Git.
 - The included `.gitignore` already excludes generated Android and Firebase config files.
 - Use separate commits for project setup, authentication, role logic, task manager, localization, theme polish, and documentation to show a strong development history.
-- Before submitting, open the GitHub repository URL in an incognito/private browser window to confirm it is public.
-- Add screenshots after running the app locally.
 
-## Screenshot Checklist
 
-Add screenshots to `docs/screenshots/` before final submission:
 
-```text
-docs/screenshots/dashboard.png
-docs/screenshots/task-manager.png
-docs/screenshots/profile-settings.png
-```
-
-Then reference them here:
-
-```md
-![Dashboard](docs/screenshots/dashboard.png)
-![Task Manager](docs/screenshots/task-manager.png)
-![Profile Settings](docs/screenshots/profile-settings.png)
-```
-
-## Why This Repository Scores Well
-
-- Clear folder separation across `data`, `domain/model`, `ui`, `util`, `res`, and `docs`.
-- Substantial Kotlin implementation across many focused files instead of one large file.
-- Real project-specific domain text and naming: Gyaan-Daan, Guru, Student, Community, Badge Level, Wall of Fame.
-- Firebase-backed CRUD and real-time listener flows.
-- Complete dependency configuration in Gradle.
-- Public-submission hygiene through `.gitignore`, setup instructions, and screenshot guidance.
