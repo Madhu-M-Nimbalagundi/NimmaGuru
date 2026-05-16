@@ -4,19 +4,6 @@
 
 Nimma-Guru is built around Gyaan-Daan: making knowledge sharing simple, local, and dignified. Students can discover Gurus, attend learning sessions, receive assignments, and track progress. Gurus can teach, upload materials, manage tasks, and collaborate with peers.
 
-## Badge System
-
-The app uses a Bronze to Diamond badge journey to recognize contribution and learning progress:
-
-- Bronze: first profile setup and early participation.
-- Silver: consistent learning, teaching, or material sharing.
-- Gold: reliable mentoring and strong student engagement.
-- Platinum: high community contribution and repeat impact.
-- Diamond: exceptional Gyaan-Daan leadership.
-
-## Peer-Guru Connection
-
-Guru users no longer see "Search for Mentor." Instead, their Connect area becomes Community, a peer directory for connecting with other Gurus. This supports collaboration, shared teaching materials, and local mentorship planning.
 
 ## Submission-Ready Features
 
